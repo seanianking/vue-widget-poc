@@ -17,9 +17,10 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:seanianking/seanianking.github.io.git main
+git push -f https://github.com/seanianking/vue-widget-poc.git master:gh-pages
+
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:seanianking/vue-widget-poc.git main:gh-pages
+# git push -f git@github.com:seanianking/vue-widget-poc.git main:gh-pages
 
 cd -
