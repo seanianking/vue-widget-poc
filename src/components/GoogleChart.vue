@@ -27,6 +27,7 @@ export default {
         colors: ['#71BE45', '333333'],
         enableInteractivity: false,
         fontSize: 25,
+        legend: 'bottom',
       },
     };
   },
@@ -78,7 +79,7 @@ export default {
     width: 125px;
     position: absolute;
     top: 189px;
-    left: 279px;
+    left: 389px;
 }
 #chart{
 position: absolute;
