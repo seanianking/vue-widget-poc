@@ -6,19 +6,21 @@ import NormalTransactions from './components/NormalTransactions.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import vuetify from './plugins/vuetify'
 import GoogleChart from './components/GoogleChart.vue'
+import NotFoundComponent from './components/NotFoundComponent.vue'
 
 Vue.use(VueRouter);
 Vue.config.productionTip = false
 
 const routes = [
-  {path: '/transactions', component: NormalTransactions},
   {path: '/', component: HelloWorld},
+  {path: '/transactions', component: NormalTransactions},
   {path: '/donut', component:GoogleChart},
+  {path: '/:catchAll(.*)', component: NotFoundComponent,}
 ];
 
 const router = new VueRouter({
-  routes,
   mode: 'history',
+  routes,
 
 })
 
