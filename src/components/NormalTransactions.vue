@@ -1,11 +1,9 @@
 <template>
   <div>
-    <v-card>
       <i class="far fa-5x fa-lightbulb"></i>
       <p style="font-size: 30px; font-weight: bold">
         {{ results[0].transfers_count }} Energy Transfers
       </p>
-    </v-card>
   </div>
 </template>
 
