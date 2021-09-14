@@ -2,12 +2,14 @@
   "name": "vue-widget-poc",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.17.5"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "sh deploy.sh",
-    "postinstall": "npm run build",
     "start": "node server.js"
   },
   "dependencies": {
