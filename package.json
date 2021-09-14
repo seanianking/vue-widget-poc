@@ -9,8 +9,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh",
-    "start": "node server.js"
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
